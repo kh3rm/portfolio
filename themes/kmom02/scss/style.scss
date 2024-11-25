@@ -1,0 +1,22 @@
+@use '../../shared/fontawesome/scss/fontawesome';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
+
+
+@use '../../node_modules/normalize.css/normalize';
+@use 'blockquotes';
+@use 'code';
+@use 'main';
+@use 'header';
+@use 'footer';
+@use 'pictures';
+@use '_variables';
+@use 'mobile-menu';
+@use 'social';
+@use 'typography';
+
+
+body {
+    background-color: variables.$background-color;
+}

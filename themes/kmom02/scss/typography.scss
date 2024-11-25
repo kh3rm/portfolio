@@ -1,0 +1,17 @@
+@use '_variables';
+
+* {
+    font-family: variables.$bread-font;
+}
+
+h1, a {
+    font-family: variables.$main-font;
+}
+
+h2, h3, h4, h5, h6, p  {
+    font-family: variables.$bread-font;
+}
+
+* {
+    color: variables.$font-color;
+}
