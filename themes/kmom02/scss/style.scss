@@ -11,12 +11,22 @@
 @use 'header';
 @use 'footer';
 @use 'pictures';
-@use '_variables';
+@use 'variables';
 @use 'mobile-menu';
 @use 'social';
 @use 'typography';
+@use 'responsive';
+
+*,
+html {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
 
 
 body {
-    background-color: variables.$background-color;
+  background-color: variables.$background-color;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }

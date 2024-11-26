@@ -19,6 +19,7 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.81.0",
     "stylelint": "^16.10.0",
-    "stylelint-config-sass-guidelines": "^12.1.0"
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-scss": "^6.10.0"
   }
 }

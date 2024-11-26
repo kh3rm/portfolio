@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+  body {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .main {
+    flex: 1 0 auto;
+    max-width: 100%;
+    justify-content: center !important;
+    margin: 2%;
+    padding: 2%;
+    min-height: 60vh;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+}
