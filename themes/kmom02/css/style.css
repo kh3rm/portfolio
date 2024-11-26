@@ -6555,6 +6555,7 @@ pre code {
 .nav a,
 .nav-toggle {
   color: #333;
+  font-size: 1.22em;
 }
 
 .nav-toggle {
@@ -6626,6 +6627,14 @@ pre code {
   display: inline-block;
 }
 
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.4;
+}
+
 * {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -6644,13 +6653,18 @@ p {
   font-family: "Nunito Sans", sans-serif;
 }
 
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.68rem;
+}
+
 * {
   color: #333;
 }
 
 @media (max-width: 767px) {
   body {
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     margin: 0;
     padding: 0;
