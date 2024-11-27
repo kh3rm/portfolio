@@ -8,7 +8,7 @@ Description: A page outlining the technologies that we're working with
 
 Sidans grundstruktur är uppbyggd med ett smidigt, minimalistiskt PHP-ramverk som heter Pico, som tar hjälp av Twig, en template engine, mycket likt det mycket populära och använda EJS i sin sammansättning och sin syntax, för att enkelt och cleant kunna rendera vyerna.
 
-För att mer initierat kunna arbeta med stylingen och CSS-strukturen, så är vi understödda av SASS, som ger oss möjligheten att jobba på ett mer modulärt, välstrukturerat och sofistikerat sätt med våran stylingkod, för att sedan kunna kompilera ihop dessa beståndsdelar till en enda sammanhållen css-stylesheet igen med ett enkelt "npm run style"-kommando. Fiffigt!
+För att mer initierat kunna arbeta med stylingen och CSS-strukturen, så är vi understödda av SASS, som ger oss möjligheten att jobba på ett mer modulärt, välstrukturerat och sofistikerat sätt med våran stylingkod, för att sedan kunna kompilera ihop dessa beståndsdelar till ett enda sammanhållet css-stylesheet igen med ett enkelt "npm run style"-kommando. Fiffigt!
 
 Den stylingkoden ser vi också till att kvalitetskontrollera lokalt själva, oberoende av de vanliga dbwebb-kontrollverktygen, med hjälp utav stylelint, för att säkerställa att vi är skötsamma och att vi anammar gängse god kodpraxis.
 
