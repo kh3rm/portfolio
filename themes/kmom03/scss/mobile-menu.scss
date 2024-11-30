@@ -1,0 +1,81 @@
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+  font-size: 1em;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  color: #333;
+  font-size: 1.22em;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.active {
+  font-weight: 800;
+  transform: scale(1.15);
+}
+
+.nav ul li :hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 767px) {
+
+  .nav ul li :hover {
+    transform: scale(1.05);
+  }
+
+  .nav a {
+    max-width: 100%;
+  }
+
+  .active {
+    max-width: 100%;
+    transform: scale(1.00);
+  }
+  .header {
+    flex-direction: column;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
