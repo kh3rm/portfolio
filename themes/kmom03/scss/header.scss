@@ -22,13 +22,12 @@
 /* Title */
 .title {
   margin-left: 1.4em;
-  margin-top: -0.4em;
+  margin-top: -0.8em;
   text-decoration: none !important;
 }
 
-.title h1,
-.title p {
-  text-decoration: none !important;
+.title h1 {
+  font-size: 2.6rem;
 }
 
 
@@ -39,9 +38,40 @@
   height: 110px;
 }
 
+.tagline {
+  margin-top: -1.4rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
 
+.tagline p,
+.tagline a,
+.title a {
+  text-decoration: none;
+}
+
+.tagline a,
+.tagline p {
+  font-style: italic;
+}
 
 .title,
 .logo {
   padding: 2em 2em 2em 0;
+}
+
+
+@media (max-width: 767px) {
+  .tagline {
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .title {
+    margin-left: 1em;
+    margin-top: -0.8em;
+    text-decoration: none !important;
+  }
+
 }

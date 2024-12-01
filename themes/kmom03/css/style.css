@@ -6487,13 +6487,12 @@ pre code {
 /* Title */
 .title {
   margin-left: 1.4em;
-  margin-top: -0.4em;
+  margin-top: -0.8em;
   text-decoration: none !important;
 }
 
-.title h1,
-.title p {
-  text-decoration: none !important;
+.title h1 {
+  font-size: 2.6rem;
 }
 
 .logo img {
@@ -6503,17 +6502,46 @@ pre code {
   height: 110px;
 }
 
+.tagline {
+  margin-top: -1.4rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.tagline p,
+.tagline a,
+.title a {
+  text-decoration: none;
+}
+
+.tagline a,
+.tagline p {
+  font-style: italic;
+}
+
 .title,
 .logo {
   padding: 2em 2em 2em 0;
 }
 
+@media (max-width: 767px) {
+  .tagline {
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  .title {
+    margin-left: 1em;
+    margin-top: -0.8em;
+    text-decoration: none !important;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-between;
   border-top: solid 1px #d2e8ee;
   background-color: #f0f8ff;
-  padding: 0.2em 0.3em;
+  padding: 0.2rem 0.1rem;
 }
 
 .footer a {
@@ -6526,10 +6554,22 @@ pre code {
 }
  */
 .footer .social {
-  font-size: 2.4rem;
+  font-size: 2rem;
   vertical-align: middle;
 }
 
+.footer .copyright-h3rman {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+
+/*
+ {
+  vertical-align: middle;
+  margin-left: 0.2rem;
+} */
 .intro-pic {
   width: 100%;
   height: auto;
@@ -6565,6 +6605,10 @@ pre code {
 .active {
   font-weight: 800;
   transform: scale(1.15);
+}
+
+.hidden {
+  display: none;
 }
 
 .nav ul li :hover {
@@ -6679,6 +6723,14 @@ p {
   color: #333;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    margin-bottom: 2.54rem;
+  }
+  h2 {
+    margin-bottom: 1.68rem;
+  }
+}
 .landing-page {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -6706,7 +6758,7 @@ p {
 
 .grid-3 {
   grid-column: span 3;
-  background-color: bisque;
+  background-color: #ffe4c4;
 }
 
 .grid-3b {
@@ -6716,7 +6768,7 @@ p {
 
 .grid-2 {
   grid-column: span 2;
-  background-color: lightgrey;
+  background-color: #d3d3d3;
 }
 
 .grid-1 {
@@ -6799,7 +6851,8 @@ p {
     margin: 0;
     padding: 0;
   }
-  html, body {
+  html,
+  body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -6809,7 +6862,7 @@ p {
     flex: 1 0 auto;
     max-width: 100%;
     justify-content: center !important;
-    margin: 2% 2%;
+    margin: 2%;
     padding: 2%;
     min-height: 60vh;
     display: block;
@@ -6817,7 +6870,9 @@ p {
   img {
     width: 100%;
   }
-  .grid-3, .grid-2, .grid-1 {
+  .grid-3,
+  .grid-2,
+  .grid-1 {
     grid-column: span 1 !important;
   }
   .main .landing-page {
@@ -6827,15 +6882,19 @@ p {
     display: block;
   }
   .box {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  .technologies-rubric,
+  .about-rubric {
+    text-align: center;
   }
   .main .technology {
     display: flex;
     flex-direction: column;
     margin: 2%;
-    width: 100% !important;
-    padding: 5% 5% !important;
-    margin: 5% 5% !important;
+    width: 100%;
+    padding: 5%;
+    margin: 5%;
   }
   /* .language-html {
     overflow-x: hidden;
@@ -6845,7 +6904,7 @@ p {
     width: 95%;
     margin-bottom: 0.84rem;
     border-radius: 1%;
-    padding: 5% 5% !important;
+    padding: 5%;
   }
   .technology .menu {
     display: none;
@@ -6865,23 +6924,22 @@ p {
     display: none;
   }
   .mobile-menu {
+    margin-left: -2.2%;
+    margin-bottom: 1.2%;
     width: 100%;
-    background-color: aqua;
-    display: inline-block;
-    position: relative;
-    top: 0;
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: start;
-    margin-right: 3% !important;
+    justify-content: space-between;
+    padding: 2%;
   }
   .mobile-menu-box {
     border: 1px solid #ccc;
-    padding: 0.2rem 0.6rem;
-    margin-bottom: 0.84rem;
-    margin-right: 0.2rem;
-    border-radius: 3%;
+    flex: 1;
+    padding: 0.2rem 0.8rem;
+    padding-right: 0.4rem;
+    margin: 0.2rem;
+    border-radius: 11%;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     font-size: 1.1rem;
     max-height: 2.8rem;

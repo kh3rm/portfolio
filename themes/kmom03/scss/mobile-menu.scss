@@ -30,12 +30,15 @@
   transform: scale(1.15);
 }
 
+.hidden {
+  display: none;
+}
+
 .nav ul li :hover {
   transform: scale(1.15);
 }
 
 @media (max-width: 767px) {
-
   .nav ul li :hover {
     transform: scale(1.05);
   }
@@ -46,8 +49,9 @@
 
   .active {
     max-width: 100%;
-    transform: scale(1.00);
+    transform: scale(1);
   }
+
   .header {
     flex-direction: column;
   }

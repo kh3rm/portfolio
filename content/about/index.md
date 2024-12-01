@@ -4,7 +4,7 @@ Description: A page outlining the technologies that we're working with
 # hidden: true
 ---
 
-## About
+<h2 class="about-rubric">About</h2>
 
 Sidans grundstruktur är uppbyggd med ett smidigt, minimalistiskt PHP-ramverk som heter Pico, som tar hjälp av Twig, en template engine, mycket likt det mycket populära och använda EJS i sin sammansättning och sin syntax, för att enkelt och cleant kunna rendera vyerna.
 

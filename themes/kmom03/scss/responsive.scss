@@ -1,11 +1,12 @@
 @media (max-width: 767px) {
-
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  html, body {
+
+  html,
+  body {
 
     width: 100%;
     height: 100%;
@@ -18,7 +19,7 @@
     flex: 1 0 auto;
     max-width: 100%;
     justify-content: center !important;
-    margin: 2% 2%;
+    margin: 2%;
     padding: 2%;
     min-height: 60vh;
     display: block;
@@ -28,7 +29,9 @@
     width: 100%;
   }
 
-  .grid-3, .grid-2, .grid-1 {
+  .grid-3,
+  .grid-2,
+  .grid-1 {
     grid-column: span 1 !important;
   }
 
@@ -41,7 +44,12 @@
   }
 
   .box {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .technologies-rubric,
+  .about-rubric {
+    text-align: center;
   }
 
 
@@ -50,20 +58,20 @@
     display: flex;
     flex-direction: column;
     margin: 2%;
-    width: 100% !important;
-    padding: 5% 5% !important;
-    margin: 5% 5% !important;
-}
+    width: 100%;
+    padding: 5%;
+    margin: 5%;
+  }
   /* .language-html {
     overflow-x: hidden;
   } */
 
   .technology .article {
-      display: block;
-      width: 95%;
-      margin-bottom: 0.84rem;
-      border-radius: 1%;
-      padding: 5% 5% !important;
+    display: block;
+    width: 95%;
+    margin-bottom: 0.84rem;
+    border-radius: 1%;
+    padding: 5%;
   }
 
   .technology .menu {
@@ -73,41 +81,45 @@
     margin: 2%;
     padding: 2%;
 
-}
+  }
 
-.technology {
-  display: block;
-  flex-direction: row;
-  width: 100%;
-  margin: 2%;
-  padding: 2%;
+  .technology {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
 
-}
+  }
 
-.mobile-menu {
-  max-width: 100%;
-  display: inline-block;
-  position: relative;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: start;
-}
+  .menu {
+    display: none;
+  }
 
-.mobile-menu-box {
-  border: 1px solid #ccc;
-  padding: 0.2rem 0.6rem;
-  margin-bottom: 0.84rem;
-  margin-right: 0.2rem;
-  width: 100%;
-  border-radius: 3%;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  font-size: 1.22rem;
-  max-height: 2.8rem;
-}
+  .mobile-menu {
+    margin-left: -2.2%;
+    margin-bottom: 1.2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 2%;
+  }
 
-.menu-icon {
-  margin-right: 0.52rem;
-}
+  .mobile-menu-box {
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 0.2rem 0.8rem;
+    padding-right: 0.4rem;
+    margin: 0.2rem;
+    border-radius: 11%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1.1rem;
+    max-height: 2.8rem;
+  }
+
+  .menu-icon {
+    margin-right: 0.52rem;
+  }
 }
