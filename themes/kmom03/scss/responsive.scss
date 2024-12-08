@@ -29,7 +29,7 @@
     width: 100%;
   }
 
-  .grid-3,
+/*   .grid-3,
   .grid-2,
   .grid-1 {
     grid-column: span 1 !important;
@@ -42,10 +42,8 @@
   .landing-page {
     display: block;
   }
+ */
 
-  .box {
-    margin-bottom: 2rem;
-  }
 
   .technologies-rubric,
   .about-rubric {
@@ -122,4 +120,28 @@
   .menu-icon {
     margin-right: 0.52rem;
   }
+}
+
+
+@media (max-width: 1280px) {
+
+  .grid-3,
+  .grid-2,
+  .grid-1 {
+    grid-column: span 1 !important;
+  }
+
+  .main .landing-page {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .landing-page {
+    display: block;
+  }
+
+  .box {
+    margin-bottom: 2rem;
+  }
+
+
 }
