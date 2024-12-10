@@ -6513,6 +6513,13 @@ pre code {
   height: 110px;
 }
 
+.darklogo i {
+  /*     margin-top: -1em; */
+  margin-left: 0.2em;
+  margin-top: 0.15em;
+  font-size: 90px;
+}
+
 .tagline {
   margin-top: -1.4rem;
   font-size: 0.9rem;
@@ -6574,6 +6581,7 @@ pre code {
   font-size: 1.2rem;
   line-height: 2rem;
   vertical-align: middle;
+  color: #333;
 }
 
 /*
@@ -6685,6 +6693,7 @@ pre code {
   vertical-align: middle;
   display: inline-block;
   transition: transform 0.3s ease;
+  color: #333;
 }
 
 .social i:hover,
@@ -6697,6 +6706,10 @@ pre code {
   font-size: 1.2rem;
   vertical-align: middle;
   display: inline-block;
+}
+
+.dark-moon-icon {
+  color: #C3AFC9;
 }
 
 html {
@@ -6714,6 +6727,7 @@ body {
 h1,
 a {
   font-family: "Lora", sans-serif;
+  color: #333;
 }
 
 h2,

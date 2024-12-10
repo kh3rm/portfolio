@@ -1,0 +1,19 @@
+.main {
+  flex: 1 0 auto;
+  max-width: 100%;
+  justify-content: center !important;
+  margin: 5vh 25vw;
+  min-height: 60vh;
+  overflow-x: hidden;
+}
+
+.technologies-main {
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-width: 100%;
+  justify-content: center !important;
+  margin: 5vh 15vw;
+  min-height: 60vh;
+  overflow-x: hidden;
+}

@@ -1,0 +1,50 @@
+@use 'variables' as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.4;
+}
+
+* {
+  font-family: $bread-font;
+}
+
+h1,
+a {
+  font-family: $main-font;
+  color: $font-color;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: $bread-font;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.68rem;
+}
+
+* {
+  color: $font-color;
+}
+
+
+
+@media (max-width: 767px) {
+  h1 {
+    margin-bottom: 2.54rem;
+  }
+
+  h2 {
+    margin-bottom: 1.68rem;
+  }
+
+}

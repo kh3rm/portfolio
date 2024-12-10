@@ -2,6 +2,11 @@
 Logo: image/bthlogo2.png
 Tagline: H3rman's portfolio
 Social:
+    - name: theme
+      title: Mode
+      url: ?action=theme
+      icon: theme-icon
+
     - title: Link to the site's github repo.
       url: https://github.com/kh3rm/portfolio
       icon: fab fa-github
@@ -14,12 +19,11 @@ Social:
       url: https://www.youtube.com/@Kboges
       icon: fas fa-walking
 
-    - title: Link to Lichess - A less well known Chess.com alternative, a french little open source sibling, that I prefer.
+    - title: Link to Lichess - A lesser-known Chess.com alternative.
       url: https://www.lichess.org
       icon: fas fa-chess-board
 
-    - title: Link to bth's homepage.
-      url: https://bth.se
-      icon: bth_logo
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
-
