@@ -3,7 +3,13 @@
 $main-font: 'Lora', sans-serif;
 $bread-font: 'Nunito Sans', sans-serif;
 
-$header-footer-color: #f0f8ff !default;
+$header-footer-color: #d4e1ec !default;
+
+$header-footer-border: #f1f0ff !default;
+
+$gradient-color: #93b6d5 !default;
+$gradient-color-two: #f0f8ff !default;
+
 
 $font-color: #333 !default;
 $font-alternative-color: #382929;
@@ -11,7 +17,6 @@ $accent-color: #ee6c4d;
 $background-color: none !default;
 $background-alternative-color: #e0fbfc !default;
 
-$header-footer-border: #d2e8ee !default;
 
 $image-brightness: 100% !default;
 $image-contrast: 100% !default;
@@ -19,3 +24,18 @@ $image-contrast: 100% !default;
 $grid-3-color: #ffe4c4 !default;
 $grid-3b-color: rgb(181, 170, 185) !default;
 $grid-2-color: #d3d3d3 !default;
+
+
+$color-scheme-background: #c6c3f0 !default;
+
+
+
+// DARK-THEME-VARIABLES
+
+$dark-theme-background-color: #1f1c20;
+$dark-theme-font-color: #f8f3fc;
+$dark-theme-header-footer-color: #0b0b14;
+$dark-theme-header-footer-border: #171724;
+$dark-theme-grid-3-color: #414152;
+$dark-theme-grid-3b-color: #746878;
+$dark-theme-grid-2-color: #4f4f7d;

@@ -18,7 +18,9 @@
 @use 'technology';
 @use 'responsive';
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 

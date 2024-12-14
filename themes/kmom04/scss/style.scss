@@ -18,10 +18,14 @@
 @use 'typography';
 @use 'technology';
 @use 'responsive';
+@use 'analysis';
+@use 'table';
 
 
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 

@@ -1,17 +1,37 @@
+@use 'variables' as *;
+
 .star {
-    color: #C3AFC9;
-    font-size: 30px;
-    text-decoration: none;
-    margin-right: 0.2em;
-    vertical-align: middle;
+  color: #c3afc9;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 0.2em;
+  vertical-align: middle;
 }
 
-header nav ul li a span {
-    text-decoration: none !important;
+.blinking-star-one {
+  position: absolute;
+  right: -25px;
+  bottom: 10px;
+  color: #c3afc9;
+  font-size: 9px;
+  animation: blink 6s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.5;
+    text-shadow: 0 0 6px $header-footer-color;
+  }
+
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 12px #c3afc9;
+  }
 }
 
 .nav a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 /* .star1 {

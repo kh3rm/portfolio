@@ -14,8 +14,16 @@
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
-                <h1>{{ site_title }}</h1>
-                <div class="tagline">{{ pages["_meta"].meta.tagline|markdown }}</div>
+                <h1 class="site-title">{{ site_title }}
+                    {% if config.session.theme == "dark" %}
+                        <span class="blinking-star-one">✦ v3.0</span>
+                    {% endif %}
+                </h1>
+
+                <div class="tagline">
+
+                    <span>{{ pages["_meta"].meta.tagline|markdown }} </span>
+                </div>
             </a>
         </div>
         <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
