@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+.star {
+  color: #c3afc9;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 0.2em;
+  vertical-align: middle;
+}
+
+.blinking-star-one {
+  position: absolute;
+  right: -25px;
+  bottom: 10px;
+  color: #c3afc9;
+  font-size: 9px;
+  animation: blink 6s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.5;
+    text-shadow: 0 0 6px $header-footer-color;
+  }
+
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 12px #c3afc9;
+  }
+}
+
+.nav a {
+  text-decoration: none !important;
+}
+
+/* .star1 {
+    left: 30px;
+    top: 10px;
+    font-size: 15px;
+}
+
+.star2 {
+    left: 520px;
+    top: 100px;
+    font-size: 16px;
+}
+
+.star3 {
+    left: 1320px;
+    top: 80px;
+    font-size: 14px;
+}
+
+.star4 {
+    left: 860px;
+    top: 70px;
+    font-size: 22px;
+} */

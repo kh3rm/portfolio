@@ -3,7 +3,7 @@ Title: Analysis
 Description: A page more elaborately showcasing the technologies that we're working with.
 Template: analysis
 Techs:
-    - name: Colors
+    - name: Colors and Fonts
       class: 01_colors
       gclass: agrid-1
       icon: fas fa-palette
@@ -18,5 +18,3 @@ Techs:
 ---
 
 ## Analysis
-
-TEST!

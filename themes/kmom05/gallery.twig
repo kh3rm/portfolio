@@ -1,0 +1,30 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main gallery-container" role="main">
+        <h1 class="about-rubric"> Gallery </h1>
+        <div class="gallery-grid">
+            {% for pic in meta.Pictures %}
+                <a class= "{{pic.gclass}} gallery-box" href="{{ base_url }}/image/{{pic.src}}" target="_blank">
+                    <picture>
+                        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/{{pic.src}}?{{pic.cimage}}">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/{{pic.src}}?{{pic.cimage2}}">
+                        <img class="gallery-image" src="{{ base_url }}/image/{{pic.src}}?{{pic.cimage3}}" alt="{{pic.name}}">
+                    </picture>
+                </a>
+            {% endfor %}
+
+        </div>
+
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/AnZ0HTEfGyA?si=-nriRJrWNHxcQeDk" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

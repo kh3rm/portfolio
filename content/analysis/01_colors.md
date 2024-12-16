@@ -1,29 +1,37 @@
 ---
-Title: Colors Analysis
-Description: A Color Description
+Title: Colors and Fonts Analysis
+Description: An analysis of three websites choice of colors and fonts.
 ---
 
-<h1 class="about-rubric">Color and Font Analysis</h1>
+<h1 class="about-rubric">Colors and Fonts Analysis</h1>
 <br>
 I den här, den första av de analysuppgifter som kommer att genomföras under de sista kursmomenten, ska vi ta oss en närmare titt på tre utvalda webbplatser, och mer specifikt deras val av färger och typsnitt.
 
-Syftet är tveeggat: som en övning i att läsa av och strukturellt kartlägga hemsidors färg- och typsnittsval, understödda av ändamålsenliga verktyg och tekniker, och att med den konkreta grunden på plats analysera och reflektera över: Vad kan de ha tänkats velat uppnå och signalera med dessa val? Hur bra har de lyckats i den avvägningen med att få på plats sidor som är färgmässigt harmoniska, tydliga och läsvänliga? Finns det förbättringspotential?
+Syftet är tveeggat: som en övning i att läsa av och strukturellt kartlägga hemsidors färg- och typsnittsval, understödda av ändamålsenliga verktyg och tekniker, och att med den konkreta grunden på plats analysera och reflektera över:
+
+Hur bra tycker vi att de har lyckats med deras val?
+
+Upplevs sidorna som färgmässigt väl sammansatta och harmoniska?
+
+Bidrar de typografiska avvägningarna de har gjort till ett textmässigt resultat som är stilfullt, läsvänligt och tydligt att interagera med?
+
+Finns det förbättringspotential?
 
 <h2 class="about-rubric">Urval</h2>
 
 De tre webbplatser som jag har valt att ta mig en närmare titt på är:
 
 - [Rouleur](http://www.rouleur.cc) - brittisk cykelsajt/cykelmagasin.
-- [Chessbase](http://www.chessbase.com) - en sida för schacknyheter och partianalyser.
+- [Chessbase](http://www.chessbase.com) - en sida för schacknyheter, statistik och partianalyser.
 - [FIDE](http://www.fide.com) - det internationella schackförbundets hemsida.
 
-Den första som ett exempel på en modern, stilmedveten sida, som jag vid en första anblick upplever har lyckats väldigt bra när det gäller denna balansgång.
+Den första som ett exempel på en modern, stilmedveten sida, som jag vid en första anblick upplever har lyckats väldigt bra när det gäller dessa balansgångar.
 
-De senare för att inkludera två sidor med samma huvudtema: schack i det här fallet, men i olika roller och egenskaper, och se hur det i sin tur kan komma att påverka de val de gör och hur mycket kreativ frihet de tillåter sig.
+De senare för att inkludera två sidor som kretsar kring samma huvudämne: schack i det här fallet, men med olika profiler, teman och roller, för att se hur det i sin tur kan komma att påverka de val de gör, och kanske även hur mycket kreativ frihet de tillåter sig.
 
 <h2 class="about-rubric">Metod</h2>
 
-Den här typen av stickprov gör man kanske mest direkt och naturligt i/med en webbläsares developer-tools, där de relevanta sidoelementen kan inspekteras.
+Den här typen av stickprov gör man kanske mest direkt och naturligt med en webbläsares developer-tools, där de relevanta elementen kan inspekteras.
 
 Jag väljer att använda mig av Firefox, och för att på ett mer laserfokuserat sätt kunna identifiera färgerna, tar jag hjälp av ColorZilla, en tacksam Firefox-extension.
 
@@ -72,13 +80,13 @@ För att skala ned skärmbilderna till en mer lämplig storlek, har jag använt 
 </table>
 </div>
 
-Paletten ser vid en första anblick ut att vittna om en ganska, grå, trist, torftig hemsida, vilket inte på något sätt är fallet.
+Färgpaletten ser vid en första anblick ut att vittna om en ganska, grå, trist och torftig hemsida, vilket inte på något sätt är fallet.
 
-Rouleur.cc lyckas ro i hamn det här minimalistiska, spartanska, neutrala svart-vit-gråa färgschemat, med ett rött accenterande undantag för subscription-knappen, som även den är ganska liten och "understated", med en matt röd färg, genom att istället ge väldigt generöst med plats åt alla högkvalitativa, stilrena, färggranna och majestätiskt natursköna bilder som hör cykelsporten till.
+Rouleur.cc lyckas ro i land det här minimalistiska, spartanska, neutrala, akromatiska (svart-vit-gråa) färgschemat, med ett litet rött accenterande undantag för subscription-knappen, som är nätt och diskret, med en matt röd färg, genom att istället ge väldigt generöst med plats åt vad som i regel är högkvalitativa, stilrena, färggranna, ofta natursköna bilder som hör cykelsporten till.
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/rouleur-screenshot4.png" alt="Rouleur-screenshot-4">
 
-Därutöver har de ytterligare ett litet kulört undantagsfall, vinrött i det här fallet, som de använder i det enda reklambanner-liknande inslaget på sidan - som i själva verket inte ens är en regelrätt sådan, varför jag anser att den är värd att inkludera i den här elementfärgsanalysen, då den pushar för deras egna fysiska magasin - som även den, precis som den tidigare nämnda röda knappen, länkar tillbaka till subscribe-sidan.
+Därutöver har de ytterligare ett litet kulört undantagsfall, vinrött i det här fallet, som de använder i det enda reklambanner-liknande inslaget på sidan, som i själva verket inte är en regelrätt sådan, utan istället frontar deras egna magasin, varför jag anser att den är värd att inkludera i den här elementfärgsanalysen, och även den länkar tillbaka till subscribe-sidan.
 
 Till den hör en mycket väl sammansatt image-comparison-slider på samma tema. Inkluderar båda nedan. Stiligt så det förslår.
 
@@ -87,18 +95,17 @@ Till den hör en mycket väl sammansatt image-comparison-slider på samma tema. 
 <img class ="analysis-screenshot" src= "%assets_url%/img/rouleur-screenshot3.png" alt="Rouleur-screenshot-3">
 
 
-
 Typsnittsmässigt så växlar de mellan två utvalda fonter:
 
 [Georgia Pro](https://www.iu.edu/brand/design/typography/georgia-pro.html) - ett serif-typsnitt - för logon, bildrubrikerna, länkarna, och även brödtexten.
 
-[Harmonia Sans](https://www.dafontfree.co/harmonia-sans-font/) - ett sans serif-typsnitt - har istället används för knapparna, navbar-texten, och h1-rubrikerna.
+[Harmonia Sans](https://www.dafontfree.co/harmonia-sans-font/) - ett sans serif-typsnitt - har istället används för knapparna, navbar-texten, h1-rubrikerna och underrubrikerna.
 
 Generellt sett så är det ju rekommenderat att man väljer ett modernare, tydligare sans-serif-typsnitt för brödtexten, för att främja bättre läsbarhet, men här har de valt att frångå den principen.
 
-Georgia Pro är ett serif-typsnitt som är framtaget för att nominellt även kunna lämpa sig för brödtext i en sådan här implementation, och den gör väl ett hyggligt jobb.
+Georgia Pro är ett serif-typsnitt som är framtaget för att nominellt även kunna lämpa sig för brödtext i en sådan här implementation, och den gör väl enligt min bedömning åtminstone ett okej jobb.
 
-Men givet att sidan ändå är ganska texttung på sina hål, och innehåller många längre artiklar och essäer, så går det att argumentera för att de ändå kanske skulle valt en än ögon- och läsvänligare variant.
+Men givet att sidan ändå är ganska textintensiv på sina håll, och innehåller många längre artiklar och essäer, så går det att argumentera för att de ändå kanske skulle valt en än ögon- och läsvänligare variant.
 
 Till logon, bildrubrikerna etc. finner jag dock att Georgia Pro lämpar sig alldeles utmärkt, och det bestående intrycket från sidan är mycket gott.
 
@@ -159,13 +166,13 @@ Det går nog inte att strikt kategorisera det som varandes något renodlat färg
 
 Det huvudsakliga dominerande brun-blå-röda huvudtemat harmoniserar bra, och de övriga färgerna, även om de är ganska många, har en nedtonad, lugn, dämpad profil.
 
-De neutrala vit-beige-grå-svarta huvudstråken bidrar till att sidan känns sammansatt, stabil och seriös även med den i övrigt lite spretigare kromatiska profilen.
+De neutrala vit-beige-grå-svarta huvudstråken bidrar till att sidan känns sammansatt, stabil och seriös, vilket lämpar sig för en schacksida, även med den i övrigt lite spretigare och friare kromatiska profilen.
 
-Hade de börjat rucka på den, och börjat experimentera med fler färger på den fronten, hade det funnits en risk för att det barkat iväg på ett sätt som potentiellt kunnat upplevas som distraherande.
+Hade de börjat rucka på den, och börjat experimentera med fler färger till den grundstrukturen, hade det funnits en risk för att det barkat iväg på ett sätt som potentiellt kunnat upplevas som distraherande.
 
-Själva schackbrädet som används för partianalyser, som är väldigt centralt för en sida av denna art, där en genomsnittsbesökare spenderar mycket tid, harmoniserar väldigt väl med det huvudsakliga färgschemat.
+Själva schackbrädet som används för partianalyser, som är väldigt centralt för en sida av denna art, och där en genomsnittsbesökare kommer spendera mycket av sin tid, passar in väl med det huvudsakliga färgschemat.
 
-Eller, det är nog egentligen att börja i fel ände: det beige-brun-rutade brädet, kanske det mest populära globalt bortsett från det klassiska svart-vita, är nog i själva verket det som delvis fått inspirera till färgvalet i webblayouten, kan man starkt misstänka.
+Eller, det är nog egentligen att börja i fel ände: det beige-brun-rutade brädet, kanske det mest populära globalt bortsett från det klassiska svart-vita, är nog i själva verket det som delvis inspirerat till färgvalen i layouten, kan man åtminstone starkt misstänka.
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/chessbase-screenshot3.png" alt="Chessbase-screenshot-3">
 
@@ -186,11 +193,11 @@ De använder sig av:
 
 Delvis pga att den till sin natur inte är särskilt lättläst och luftig, och tycker även att den här i sin allmäna implementation bidrar till en lite förlegad och utdaterad känsla till sidan överlag, som skär sig lite med det helhetsintryck som annars hade landad i någonting verkligt gediget, modernt och balanserat.
 
-Inte för att "modernt" per definition är bra, men om man då väljer att ge så mycket utrymme till den här typen av serif-typsnitt, och med det söker få till en mer klassisk och traditionell känsla, så bör det kanske isf också återspegla sig i sidans övriga layout, och eventuellt också kompenseras för med ytterligare letter spacing eller andra lämpliga åtgärder för att nå upp till en god nivå av läsbarhet.
+Inte för att för den sakens skull antyda att "modernt" per definition och per automatik är bra, men om man då väljer att ge så mycket utrymme till ett (i mitt tycke tämligen mediokert och trist) serif-typsnitt av det här slaget, och om man med det söker få till en mer klassisk och traditionell känsla, så bör det kanske isf också återspegla sig i sidans övriga layout, och eventuellt också kompenseras för med ytterligare letter spacing eller andra lämpliga åtgärder för att nå upp till en god nivå av läsbarhet.
 
 När Montserrat, eller Fjalla One, som inte nödvändigtvis är några personliga favoriter hos en typografisk novis som mig, istället appliceras, så upplever jag att de ger ett lyft direkt.
 
-Med ovan nämnda synpunkter beaktade, så är intrycket från sidan ändå gott och seriöst, men med utrymme för förbättring.
+Även med ovan nämnda synpunkter i beaktning, så är det samlade intrycket från sidan ändå fortsatt gott och seriöst, men med utrymme för förbättring.
 
 <h2 class="analysis-site-rubric">FIDE.com</h2>
 
@@ -234,17 +241,17 @@ De har valt att använda sig av ett blått analogt huvudtema, med kompletterande
 
 Det är återhållsamt, nyktert, inte jättespännande, men i mitt tycke stilrent och snyggt.
 
-Även när det gäller typsnitten är det verkliga inga utsvävningar, utan de håller sig till säkra kort.
+Även när det gäller typsnitten är det verkligen inga utsvävningar, utan de håller sig till säkra kort.
 
-Och med undantag för [Bitstream Vera Serif](https://www.dafont.com/bitstream-vera-seri.font) - ett serif-typsnitt- som används till logotiteln/sidotiteln i headern, så är det [Roboto](https://fonts.google.com/specimen/Roboto) - ett av de mest populära och använda sans-serif-typsnitten - som gäller för hela slanten, för allt övrigt innehåll på huvudsidan.
+Och med undantag för [Bitstream Vera Serif](https://www.dafont.com/bitstream-vera-seri.font) - ett serif-typsnitt- som används till titeln i headern, så är det [Roboto](https://fonts.google.com/specimen/Roboto) - ett av de mest populära och använda sans-serif-typsnitten - som gäller för hela slanten, för allt övrigt innehåll på huvudsidan.
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/fide-screenshot2.png" alt="fide-screenshot2">
 <img class ="analysis-screenshot" src= "%assets_url%/img/fide-screenshot3.png" alt="fide-screenshot3">
 
 
-Igen, varken vågat eller nyskapande, men det fungerar och levererar ett förutsägbart, habilt, stabilt, tydligt, läsvänligt resultat.
+Igen, varken vågat eller nyskapande, men det fungerar och levererar ett förutsägbart, habilt, tydligt, läsvänligt resultat.
 
-Jag kvalificerade det tidigare kategoriska konstaterandet med att det gällde huvudsidan, för när FIDE i år (2024) fyllde 100 år, så etablerade de faktiskt en liten jubileumssida som länkas till från navbaren, där de faktiskt har spänt bågen åtminstone lite till när det gäller typsnittsvalen:
+Jag kvalificerade det tidigare kategoriska konstaterandet med att det gällde huvudsidan, för när FIDE i år (2024) fyllde 100 år, så etablerade de en liten jubileumssida som länkas till från navbaren, där de faktiskt har spänt bågen åtminstone lite till när det gäller typsnittsvalen:
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/fide-screenshot4.png" alt="fide-screenshot4">
 <img class ="analysis-screenshot" src= "%assets_url%/img/fide-screenshot5.png" alt="fide-screenshot5">
@@ -254,7 +261,7 @@ Jag kvalificerade det tidigare kategoriska konstaterandet med att det gällde hu
 
 Stilrent och enkelt även här, men med kanske aningen mer flärd.
 
-Sammanfattningsvis tycker jag att färgvalen och typsnittsvalen bidrar till ett professionellt, propert och formellt intryck, som sig väl anstår ett förbundssida, som nog medvetet ämnat hålla sig väldigt neutralt i sitt tilltal.
+Sammanfattningsvis tycker jag att färgvalen och typsnittsvalen bidrar till ett professionellt, propert och formellt intryck, vilket är i linje med vad man kan förvänta sig av en förbundssida.
 
 
 <h2 class="about-rubric">Referenser</h2>
