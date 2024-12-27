@@ -84,3 +84,12 @@ a .agrid-1 {
   margin-right: 0.62rem;
   margin-left: 0.62rem;
 }
+
+.loading-analysis-sheet {
+  width: 90%;
+  height: 30rem;
+}
+
+.las-dark {
+  filter: $las-dark-dampening;
+}

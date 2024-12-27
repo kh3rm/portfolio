@@ -184,7 +184,7 @@ De använder sig av:
 
 [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) - ett sans-serif-typsnitt- med en betydligt modernare känsla, letar sig in i en och annan sidobanner.
 
-[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) - ett sans-serif-typsnitt - som gör ett bra jobb med att på liten yta och i liten storlek bjuda på tydlig draganalys i det lilla fönster-elmentet i anslutning till schackbrädet.
+[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) - ett sans-serif-typsnitt - som gör ett bra jobb med att på liten yta och i liten storlek bjuda på tydlig draganalys i det lilla fönster-elementet i anslutning till schackbrädet.
 
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/chessbase-screenshot4.png" alt="Chessbase-screenshot-4">

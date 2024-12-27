@@ -10,6 +10,31 @@
   border-radius: 1%;
 }
 
+
+.load-screenshot {
+  width: 100%;
+  height: auto;
+  margin: 1.12rem 0;
+  border-radius: 1%;
+  padding-bottom: 1.12rem;
+}
+
+
+.load-screenshot-mobile {
+  width: 300px;
+  height: auto;
+  margin: 1.12rem 0;
+  border-radius: 1%;
+}
+
+.mobile-load-screenshot-container {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 1.12rem 0;
+}
+
 img,
 embed,
 object,

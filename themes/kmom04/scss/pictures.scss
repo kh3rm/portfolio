@@ -10,6 +10,11 @@
   border-radius: 1%;
 }
 
+.mobile-load-screenshot-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
 img,
 embed,
 object,
