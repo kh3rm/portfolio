@@ -1,0 +1,41 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+
+
+    <div class="main technology" role="main">
+        <aside class="menu">
+            {% for page in pages("technology") %}
+            <a name="{{ page.title }}" href="{{ page.url }}">
+                 <div class="menu-box">
+                        <i class=" {{ page.meta.Icon }} menu-icon" aria-hidden="true"></i>
+                        {{ page.title }}
+                        <h2>{{ tech.name }}</h2>
+                 </div>
+            </a>
+            {% endfor %}
+        </aside>
+
+        <aside class="mobile-menu">
+            {% for page in pages("technology") %}
+            <a href="{{ page.url }}" aria-label="{{ page.title }}">
+                 <div class="mobile-menu-box">
+                        <i class=" {{ page.meta.Icon }} menu-icon" aria-hidden="true" alt="{{ page.title }}"></i>
+                        <span class="hidden">{{ page.title }}</span>
+                 </div>
+            </a>
+            {% endfor %}
+        </aside>
+
+
+        <article class="article">
+            {{ content }}
+        </article>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

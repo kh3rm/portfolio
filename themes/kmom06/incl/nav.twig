@@ -1,0 +1,59 @@
+<div class="header" role="banner">
+    <div class="site-header">
+        {% if pages["_meta"].meta.logo %}
+        <div class="logo darklogo">
+            <a href="{{ base_url }}">
+                {% if config.session.theme == "dark" %}
+                    <i class="fas fa-moon dark-moon-icon" aria-hidden="true" alt="Dark Moon Logo"></i>
+                {% else %}
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="BTH Logo" />
+                {% endif %}
+
+            </a>
+        </div>
+        {% endif %}
+        <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <a href="{{ base_url }}">
+                <h1 class="site-title">{{ site_title }}
+                    {% if config.session.theme == "dark" %}
+                        <span class="blinking-star-one">✦ v3.0</span>
+                    {% endif %}
+                </h1>
+
+                <div class="tagline">
+
+                    <span>{{ pages["_meta"].meta.tagline|markdown }} </span>
+                </div>
+            </a>
+        </div>
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
+            tabindex="0">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+        </a>
+    </div>
+    <div class="nav">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+
+
+                    {% if config.session.theme == "dark" %}
+
+                        <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                            <a href="{{ page.url }}"><span class="star">✦</span>{{ page.title }}</a>
+                        </li>
+
+                    {% else %}
+
+                        <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                        </li>
+
+                    {% endif %}
+
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

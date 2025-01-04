@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px $header-footer-border;
+  background-color: $header-footer-color;
+  padding: 0.2rem 0.1rem;
+}
+
+.footer a {
+  color: #222;
+}
+
+/* .footer p {
+    margin-top: 0.4em;
+    font-size: 1.2em;
+}
+ */
+
+.footer .social {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.footer .copyright-h3rman {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+  color: $font-color;
+}
+/*
+ {
+  vertical-align: middle;
+  margin-left: 0.2rem;
+} */

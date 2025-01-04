@@ -1,0 +1,71 @@
+@use '../../shared/fontawesome/scss/fontawesome';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
+
+@use 'variables' as * with (
+  $background-color: #1f1c20,
+  $font-color: #f8f3fc,
+  $header-footer-color: #0b0b14,
+  $header-footer-border: #171724,
+  $grid-3-color: #414152,
+  $grid-3b-color: #746878,
+  $grid-2-color: #4F4F7D,
+  $gradient-color: #4F4F7D,
+  $gradient-color-two: #0b0b14,
+  $color-scheme-background: #4F4F7D,
+  $las-dark-dampening: brightness(0.85)
+);
+
+
+@use '../../node_modules/normalize.css/normalize';
+@use 'blockquotes';
+@use 'code';
+@use 'main';
+@use 'header';
+@use 'footer';
+@use 'pictures';
+@use 'mobile-menu';
+@use 'social';
+@use 'typography';
+@use 'technology';
+@use 'responsive';
+@use 'star';
+@use 'analysis';
+@use 'table';
+@use 'gallery';
+
+code,
+pre,
+pre code {
+  background-color: #4f4f7d;
+  color: $font-color;
+}
+
+
+img {
+  filter: brightness(85%) contrast(110%) opacity(0.8);
+  transition: filter 0.3s ease;
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+html {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+
+body {
+  background-color: $background-color;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

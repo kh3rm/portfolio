@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$main-font: 'Lora', sans-serif;
+$bread-font: 'Nunito Sans', sans-serif;
+
+$header-footer-color: #d4e1ec !default;
+
+$header-footer-border: #f1f0ff !default;
+
+$gradient-color: #93b6d5 !default;
+$gradient-color-two: #f0f8ff !default;
+
+
+$font-color: #333 !default;
+$font-alternative-color: #382929;
+$accent-color: #ee6c4d;
+$background-color: none !default;
+$background-alternative-color: #e0fbfc !default;
+
+
+$image-brightness: 100% !default;
+$image-contrast: 100% !default;
+
+$grid-3-color: #ffe4c4 !default;
+$grid-3b-color: rgb(181, 170, 185) !default;
+$grid-2-color: #d3d3d3 !default;
+
+
+$color-scheme-background: #c6c3f0 !default;
+
+$las-dark-dampening: none !default;
+
+
+// DARK-THEME-VARIABLES
+
+$dark-theme-background-color: #1f1c20;
+$dark-theme-font-color: #f8f3fc;
+$dark-theme-header-footer-color: #0b0b14;
+$dark-theme-header-footer-border: #171724;
+$dark-theme-grid-3-color: #414152;
+$dark-theme-grid-3b-color: #746878;
+$dark-theme-grid-2-color: #4f4f7d;

@@ -1,0 +1,101 @@
+@use 'variables' as *;
+
+.analysis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin: 5vh 15vw;
+  max-width: 100%;
+}
+
+.analysis-grid {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  margin-bottom: 5rem;
+  max-width: 100%;
+  padding: 1.68rem;
+  padding-top: 0;
+}
+
+/* .analysis-grid a {
+    display: block;
+} */
+
+.analysis-grid h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.analysis-grid a {
+  text-decoration: none;
+}
+
+.technology a {
+  text-decoration: none;
+}
+
+a .agrid-1 {
+  grid-column: span 1;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.analysis-box {
+  display: inline-block;
+  border: 3px solid #ccc;
+  padding: 4.36rem 2rem;
+  border-radius: 2%;
+  min-height: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 2s ease;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.analysis-box a {
+  text-align: center;
+}
+
+
+
+.analysis-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(33, 9, 61, 0.3);
+  background: linear-gradient(135deg, $gradient-color, $gradient-color-two);
+}
+
+.analysis-site-rubric {
+  text-align: center;
+  padding: 1.14rem 0;
+  margin-bottom: 1.14rem;
+  margin-top: 3.14rem;
+  border-top: 2px #ccc solid;
+  border-bottom: 2px #ccc solid;
+}
+
+
+.menu-icon {
+  margin-right: 0.62rem;
+  margin-left: 0.62rem;
+}
+
+.loading-analysis-sheet {
+  width: 90%;
+  height: 30rem;
+}
+
+.las-dark {
+  filter: $las-dark-dampening;
+}
+
+.quote {
+  padding: 0.4rem 0.2rem;
+  overflow: hidden;
+  white-space: normal;
+}

@@ -1,0 +1,45 @@
+@use '../../shared/fontawesome/scss/fontawesome';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
+
+
+@use 'variables' as *;
+
+@use '../../node_modules/normalize.css/normalize';
+@use 'blockquotes';
+@use 'code';
+@use 'main';
+@use 'header';
+@use 'footer';
+@use 'pictures';
+@use 'mobile-menu';
+@use 'social';
+@use 'typography';
+@use 'technology';
+@use 'responsive';
+@use 'analysis';
+@use 'table';
+@use 'gallery';
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+html {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+
+body {
+  background-color: $background-color;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

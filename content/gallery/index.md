@@ -60,7 +60,7 @@ Pictures:
     - name: Sunrise over Lavendel Fields
       gclass: ggrid-2
       src: pic-15.jpg
-      cimage: q=60
+      cimage: q=70
       cimage2: w=667
       cimage3: w=375
     - name: Sunrise over the chapel of Manas in the Drôme

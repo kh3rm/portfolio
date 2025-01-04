@@ -17,7 +17,7 @@ Bidrar de typografiska avvägningarna de har gjort till ett textmässigt resulta
 
 Finns det förbättringspotential?
 
-<h2 class="about-rubric">Urval</h2>
+<h2 class="sub-rubric">Urval</h2>
 
 De tre webbplatser som jag har valt att ta mig en närmare titt på är:
 
@@ -29,7 +29,7 @@ Den första som ett exempel på en modern, stilmedveten sida, som jag vid en fö
 
 De senare för att inkludera två sidor som kretsar kring samma huvudämne: schack i det här fallet, men med olika profiler, teman och roller, för att se hur det i sin tur kan komma att påverka de val de gör, och kanske även hur mycket kreativ frihet de tillåter sig.
 
-<h2 class="about-rubric">Metod</h2>
+<h2 class="sub-rubric">Metod</h2>
 
 Den här typen av stickprov gör man kanske mest direkt och naturligt med en webbläsares developer-tools, där de relevanta elementen kan inspekteras.
 
@@ -42,7 +42,7 @@ Respektive sidoanalys kompletteras med skärmbilder, och färgschemat represente
 För att skala ned skärmbilderna till en mer lämplig storlek, har jag använt mig av https://picresize.com.
 
 
-<h2 class="about-rubric">Resultat och Analys</h2>
+<h2 class="sub-rubric">Resultat och Analys</h2>
 
 <h2 class="analysis-site-rubric">Rouleur.cc</h2>
 
@@ -53,28 +53,28 @@ För att skala ned skärmbilderna till en mer lämplig storlek, har jag använt 
     <h3 class="about-color-scheme-h3">Färgschema:</h3>
     <tr>
         <td style="background-color: #FFFFFF">
-            <span class="light-span">#FFFFFF</span>
+            <span class="light-span"></span>
         </td>
         <td style="background-color: #FFFEFF">
-            <span class="light-span">#FFFEFF</span>
+            <span class="light-span"></span>
         </td>
         <td style="background-color: #F4F4F4">
-            <span class="light-span">#F4F4F4</span>
+            <span class="light-span"></span>
         </td>
         <td style="background-color: #E5E5E5">
-            <span class="light-span">#E5E5E5</span>
+            <span class="light-span"></span>
         </td>
         <td style="background-color: #E74444">
-            <span class="dark-span">#E74444</span>
+            <span class="dark-span"></span>
         </td>
         <td style="background-color: #831D2D">
-            <span class="dark-span">#831D2D</span>
+            <span class="dark-span"></span>
         </td>
         <td style="background-color: #1D1D1D">
-            <span class="dark-span">#1D1D1D</span>
+            <span class="dark-span"></span>
         </td>
         <td style="background-color: #000000">
-            <span class="dark-span">#000000</span>
+            <span class="dark-span"></span>
         </td>
     </tr>
 </table>
@@ -82,7 +82,7 @@ För att skala ned skärmbilderna till en mer lämplig storlek, har jag använt 
 
 Färgpaletten ser vid en första anblick ut att vittna om en ganska, grå, trist och torftig hemsida, vilket inte på något sätt är fallet.
 
-Rouleur.cc lyckas ro i land det här minimalistiska, spartanska, neutrala, akromatiska (svart-vit-gråa) färgschemat, med ett litet rött accenterande undantag för subscription-knappen, som är nätt och diskret, med en matt röd färg, genom att istället ge väldigt generöst med plats åt vad som i regel är högkvalitativa, stilrena, färggranna, ofta natursköna bilder som hör cykelsporten till.
+Rouleur.cc lyckas ro i land det här minimalistiska, spartanska, neutrala, akromatiska (svart-vit-gråa) färgschemat, med ett litet rött accentuerande undantag för subscription-knappen, som är nätt och diskret, med en matt röd färg, genom att istället ge väldigt generöst med plats åt vad som i regel är högkvalitativa, stilrena, färggranna, ofta natursköna bilder som hör cykelsporten till.
 
 <img class ="analysis-screenshot" src= "%assets_url%/img/rouleur-screenshot4.png" alt="Rouleur-screenshot-4">
 
@@ -120,42 +120,42 @@ Till logon, bildrubrikerna etc. finner jag dock att Georgia Pro lämpar sig alld
     <h3 class="about-color-scheme-h3">Färgschema:</h3>
     <table>
         <tr>
-            <td style="background-color: #E3B97D"><span class="light-span">#E3B97D</span></td>
-            <td style="background-color: #C47A58"><span class="dark-span">#C47A58</span></td>
-            <td style="background-color: #E2B400"><span class="light-span">#E2B400</span></td>
-            <td style="background-color: #D47E01"><span class="light-span">#D47E01</span></td>
-            <td style="background-color: #AA5E00"><span class="dark-span">#AA5E00</span></td>
-            <td style="background-color: #854B1D"><span class="dark-span">#854B1D</span></td>
-            <td style="background-color: #48220E"><span class="dark-span">#48220E</span></td>
-            <td style="background-color: #401E0C"><span class="dark-span">#401E0C</span></td>
+            <td style="background-color: #E3B97D"><span class="light-span"></span></td>
+            <td style="background-color: #C47A58"><span class="dark-span"></span></td>
+            <td style="background-color: #E2B400"><span class="light-span"></span></td>
+            <td style="background-color: #D47E01"><span class="light-span"></span></td>
+            <td style="background-color: #AA5E00"><span class="dark-span"></span></td>
+            <td style="background-color: #854B1D"><span class="dark-span"></span></td>
+            <td style="background-color: #48220E"><span class="dark-span"></span></td>
+            <td style="background-color: #401E0C"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #59AFD4"><span class="light-span">#59AFD4</span></td>
-            <td style="background-color: #598DCA"><span class="light-span">#598DCA</span></td>
-            <td style="background-color: #3A589B"><span class="dark-span">#3A589B</span></td>
+            <td style="background-color: #59AFD4"><span class="light-span"></span></td>
+            <td style="background-color: #598DCA"><span class="light-span"></span></td>
+            <td style="background-color: #3A589B"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #00AA00"><span class="dark-span">#00AA00</span></td>
-            <td style="background-color: #3E654A"><span class="dark-span">#3E654A</span></td>
+            <td style="background-color: #00AA00"><span class="dark-span"></span></td>
+            <td style="background-color: #3E654A"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #992F53"><span class="dark-span">#992F53</span></td>
-            <td style="background-color: #BB102B"><span class="dark-span">#BB102B</span></td>
-            <td style="background-color: #D8011E"><span class="dark-span">#D8011E</span></td>
-            <td style="background-color: #B70D20"><span class="dark-span">#B70D20</span></td>
-            <td style="background-color: #6B1A5D"><span class="dark-span">#6B1A5D</span></td>
-            <td style="background-color: #5A194E"><span class="dark-span">#5A194E</span></td>
+            <td style="background-color: #992F53"><span class="dark-span"></span></td>
+            <td style="background-color: #BB102B"><span class="dark-span"></span></td>
+            <td style="background-color: #D8011E"><span class="dark-span"></span></td>
+            <td style="background-color: #B70D20"><span class="dark-span"></span></td>
+            <td style="background-color: #6B1A5D"><span class="dark-span"></span></td>
+            <td style="background-color: #5A194E"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #F2E1CC"><span class="light-span">#F2E1CC</span></td>
-            <td style="background-color: #909AA6"><span class="light-span">#909AA6</span></td>
-            <td style="background-color: #8E989A"><span class="light-span">#8E989A</span></td>
-            <td style="background-color: #6E7D8C"><span class="light-span">#6E7D8C</span></td>
-            <td style="background-color: #5D6668"><span class="light-span">#5D6668</span></td>
-            <td style="background-color: #3D485C"><span class="dark-span">#3D485C</span></td>
-            <td style="background-color: #3F4A5E"><span class="dark-span">#3F4A5E</span></td>
-            <td style="background-color: #0F1516"><span class="dark-span">#0F1516</span></td>
-            <td style="background-color: #000000"><span class="dark-span">#000000</span></td>
+            <td style="background-color: #F2E1CC"><span class="light-span"></span></td>
+            <td style="background-color: #909AA6"><span class="light-span"></span></td>
+            <td style="background-color: #8E989A"><span class="light-span"></span></td>
+            <td style="background-color: #6E7D8C"><span class="light-span"></span></td>
+            <td style="background-color: #5D6668"><span class="light-span"></span></td>
+            <td style="background-color: #3D485C"><span class="dark-span"></span></td>
+            <td style="background-color: #3F4A5E"><span class="dark-span"></span></td>
+            <td style="background-color: #0F1516"><span class="dark-span"></span></td>
+            <td style="background-color: #000000"><span class="dark-span"></span></td>
         </tr>
     </table>
 </div>
@@ -207,30 +207,30 @@ När Montserrat, eller Fjalla One, som inte nödvändigtvis är några personlig
     <h3 class="about-color-scheme-h3">Färgschema:</h3>
     <table>
         <tr>
-            <td style="background-color: #FFFFFF"><span class="light-span">#FFFFFF</span></td>
-            <td style="background-color: #F5F4F9"><span class="light-span">#F5F4F9</span></td>
-            <td style="background-color: #E9E9F1"><span class="light-span">#E9E9F1</span></td>
-            <td style="background-color: #AEB9CD"><span class="light-span">#AEB9CD</span></td>
-            <td style="background-color: #C6CEE5"><span class="light-span">#C6CEE5</span></td>
-            <td style="background-color: #979797"><span class="dark-span">#979797</span></td>
-            <td style="background-color: #232221"><span class="dark-span">#232221</span></td>
-            <td style="background-color: #000000"><span class="dark-span">#000000</span></td>
+            <td style="background-color: #FFFFFF"><span class="light-span"></span></td>
+            <td style="background-color: #F5F4F9"><span class="light-span"></span></td>
+            <td style="background-color: #E9E9F1"><span class="light-span"></span></td>
+            <td style="background-color: #AEB9CD"><span class="light-span"></span></td>
+            <td style="background-color: #C6CEE5"><span class="light-span"></span></td>
+            <td style="background-color: #979797"><span class="dark-span"></span></td>
+            <td style="background-color: #232221"><span class="dark-span"></span></td>
+            <td style="background-color: #000000"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #B5DAFB"><span class="light-span">#B5DAFB</span></td>
-            <td style="background-color: #48ACFF"><span class="light-span">#48ACFF</span></td>
-            <td style="background-color: #4C67AC"><span class="dark-span">#4C67AC</span></td>
-            <td style="background-color: #50618D"><span class="dark-span">#50618D</span></td>
-            <td style="background-color: #334166"><span class="dark-span">#334166</span></td>
-            <td style="background-color: #3C4963"><span class="dark-span">#3C4963</span></td>
+            <td style="background-color: #B5DAFB"><span class="light-span"></span></td>
+            <td style="background-color: #48ACFF"><span class="light-span"></span></td>
+            <td style="background-color: #4C67AC"><span class="dark-span"></span></td>
+            <td style="background-color: #50618D"><span class="dark-span"></span></td>
+            <td style="background-color: #334166"><span class="dark-span"></span></td>
+            <td style="background-color: #3C4963"><span class="dark-span"></span></td>
         </tr>
         <tr>
-            <td style="background-color: #F6A0A3"><span class="light-span">#F6A0A3</span></td>
-            <td style="background-color: #E76766"><span class="dark-span">#E76766</span></td>
-            <td style="background-color: #DA2A2A"><span class="dark-span">#DA2A2A</span></td>
-            <td style="background-color: #EB1F26"><span class="dark-span">#EB1F26</span></td>
-            <td style="background-color: #FF003D"><span class="dark-span">#FF003D</span></td>
-            <td style="background-color: #FF0000"><span class="dark-span">#FF0000</span></td>
+            <td style="background-color: #F6A0A3"><span class="light-span"></span></td>
+            <td style="background-color: #E76766"><span class="light-span"></span></td>
+            <td style="background-color: #DA2A2A"><span class="light-span"></span></td>
+            <td style="background-color: #EB1F26"><span class="light-span"></span></td>
+            <td style="background-color: #FF003D"><span class="light-span"></span></td>
+            <td style="background-color: #FF0000"><span class="light-span"></span></td>
         </tr>
     </table>
 </div>
@@ -264,10 +264,10 @@ Stilrent och enkelt även här, men med kanske aningen mer flärd.
 Sammanfattningsvis tycker jag att färgvalen och typsnittsvalen bidrar till ett professionellt, propert och formellt intryck, vilket är i linje med vad man kan förvänta sig av en förbundssida.
 
 
-<h2 class="about-rubric">Referenser</h2>
+<h2 class="sub-rubric">Referenser</h2>
 [Readability in UX/UI Design](https://www.interaction-design.org/literature/topics/readability-in-ux-design)
 
 The Principles of Beautiful Web Design, 4th edition, Chapter 2 - Color
 
-<h2 class="about-rubric">Författare</h2>
+<h2 class="sub-rubric">Författare</h2>
 Rapport skriven av Herman Karlsson (hekr23).

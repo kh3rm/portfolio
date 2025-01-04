@@ -19,7 +19,7 @@ Sidan använder sig av två minimalistiska, monokroma färgscheman, ett ljust oc
 
 <div class="color-scheme-div">
 <table>
-    <h3 class="about-color-scheme-h3">Light mode:</h3>
+    <h2 class="about-color-scheme-h3">Light mode:</h2>
     <tr>
         <td style="background-color: #f1f0ff">
             <span class="light-span">#f1f0ff</span>
@@ -36,7 +36,7 @@ Sidan använder sig av två minimalistiska, monokroma färgscheman, ett ljust oc
 
 <div class="color-scheme-div">
 <table>
-    <h3 class="about-color-scheme-h3">Dark mode:</h3>
+    <h2 class="about-color-scheme-h3">Dark mode:</h2>
     <tr>
         <td style="background-color: #746878">
             <span class="dark-span">#746878</span>

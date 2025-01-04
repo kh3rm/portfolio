@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-<img class ="intro-pic" src= "%assets_url%/img/me222.jpg">
+<img class ="intro-pic" src= "%assets_url%/img/me222.jpg" alt="Herman Profile Picture">
 
 <br>
 Hej!

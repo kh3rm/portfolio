@@ -1,0 +1,83 @@
+@use 'variables' as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.4;
+}
+
+* {
+  font-family: $bread-font;
+}
+
+h1,
+a {
+  font-family: $main-font;
+  color: $font-color;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  font-family: $bread-font;
+}
+
+.about-rubric,
+.sub-page-header {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.sub-rubric {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.68rem;
+}
+
+* {
+  color: $font-color;
+}
+
+li {
+  padding: 0.2rem 0.2rem;
+  font-size: 1rem;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+  h1 {
+    margin-bottom: 2.54rem;
+  }
+
+  h2 {
+    margin-bottom: 1.68rem;
+  }
+
+  ul {
+    margin-left: 0.8rem;
+  }
+  li {
+    margin-left: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .quote {
+    margin-bottom: 1.68rem;
+  }
+
+}
